@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+body{
+    text-align: center;
+    background-image: url(https://i.imgur.com/62oc7pU.png);
+    font-family: 'Open Sans', sans-serif;
+    size: 100%;
+    
+
+}
+#letras{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0.2em 0.5em 0.1em rgb(16, 5, 160),
+        -0.3em 0.1em 0.1em rgb(255, 0, 0),
+        0.4em -0.3em 0.1em rgb(16, 5, 160);
+        
+}
+
+main a img{
+    width: 37%;
+    height: 37%;
+    border-image-width: 5px;
+    
+    transition: transform 0.3s;
+}
+
+main{
+    size: 90%;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5%;
+    
+}
+
+h1 img{
+    width: 40%;
+    height: 40%;
+}
+
+
+
+main a img:hover{
+    transform: scale(1.2); 
+}
